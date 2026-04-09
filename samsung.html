@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartStore - iPhone 17 Pro</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XXXXXXX');
+    </script>
+</head>
+<body>
+
+<!-- ====================== ШАПКА ====================== -->
+<!-- ====================== ШАПКА (ТОЧНО КАК НА ТВОЁМ СКРИНШОТЕ) ====================== -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+        <div class="container">
+            
+            <!-- Логотип слева в чёрном квадрате -->
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="SmartStore" height="54">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto align-items-center gap-4">
+                    <li class="nav-item"><a class="nav-link fw-medium" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="catalog.html">Каталог</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="consultation.html">Контакты</a></li>
+                </ul>
+
+                <!-- Кнопка Профиль - точно как на скриншоте -->
+                <a href="#" class="btn btn-profile">Профиль</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- ====================== СТРАНИЦА ТОВАРА ====================== -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <!-- Левая колонка — фото -->
+            <div class="col-lg-6">
+                <img src="images/s25-ultra.jpg" class="img-fluid rounded-4 shadow" alt="iPhone 17 Pro">
+            </div>
+            
+            <!-- Правая колонка — информация -->
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold mb-3">Samsung S25 ultra</h1>
+                <p class="price mb-4">80 000 ₽</p>
+                
+                <p class="lead">
+                    Смартфон Samsung Galaxy S25 Ultra в корпусе из серебристого титана и стекла имеет 12 ГБ оперативной памяти, которая обеспечивает быстрый отклик на запросы пользователя и запуск требовательных приложений. 
+                    Безрамочный 6.9-дюймовый дисплей с разрешением 3120х1440 пикселей поддерживает технологию Vision Booster для отображения четких изображений даже при ярких лучах солнца
+                </p>
+                
+                <ul class="list-unstyled mt-4">
+                    <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i> 6.9", 3120x1440, Dynamic AMOLED 2X, 120 Гц</li>
+                    <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i> Qualcomm Snapdragon 8 Elite for Galaxy, 8 x 4.47 ГГц</li>
+                    <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i> Титановый корпус</li>
+                    <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i> 200+50+50+10 Мп</li>
+                    <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i> One UI 7</li>
+                </ul>
+                
+                <a href="#" class="btn btn-green btn-lg px-5 mt-4">Купить в один клик</a>
+                <p class="text-muted mt-3 small">Доставка по всей России • Гарантия 1 год</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====================== ФУТЕР ====================== -->
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <div class="col-md-3 mb-4">
+                <img src="images/logo.png" alt="SmartStore" height="48">
+            </div>
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold">Информация</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">О компании</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Вакансии</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold">Покупателям</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Доставка</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Способы оплаты</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Обмен и возврат</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold">Обратная связь</h5>
+                <ul class="list-unstyled">
+                    <li><a href="consultation.html" class="text-white text-decoration-none">Заказать консультацию</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-5 pt-4 border-top border-secondary">
+            © 2026 SmartStore. Все права защищены.
+        </div>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
